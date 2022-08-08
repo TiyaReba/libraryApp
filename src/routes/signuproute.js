@@ -1,6 +1,6 @@
 const express = require('express'); 
 const signupRouter = express.Router();
-const user = require('../data/user');
+const user = require('../data/users');
 
 signupRouter.get('/',function(req,res){
 
