@@ -4,10 +4,10 @@ const express = require('express');
 //  part#1 point2
  const bodyparser = require('body-parser')
 const cors = require('cors');
-const connectDB = require('./config/db')
+// const connectDB = require('./config/db')
+// const port = process.env.PORT || 5000;
 
-connectDB()
-
+// connectDB()
 
 
 const nav= [
