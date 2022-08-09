@@ -11,12 +11,14 @@ loginRouter.get('/',function(req,res){
 
 loginRouter.get("/check",function(req,res){
     var checkuser = {
+        // part 2 params instead of param
         uid:req.param("uid"),
         pwd:req.param("pwd")
     };
     
     console.log(checkuser);
-    var flag=false;
+    // flag changed
+    var flag=true;
 
 //    var flagg = user.find((e)=>{
        for(let i=0;i<user.length;i++){

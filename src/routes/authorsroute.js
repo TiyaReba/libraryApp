@@ -80,6 +80,8 @@ authorsRouter.post('/delete', function (req, res) {
 
 //router to edit author
 authorsRouter.post('/edit', function (req, res) {
+console.log('hi');
+
 
     authordata.findById(req.body.id, function(err, data){
         if (err) {
@@ -95,6 +97,7 @@ authorsRouter.post('/edit', function (req, res) {
 
 
 //router to update author
+
 authorsRouter.post('/update', function (req, res) {
 
     authordata.findByIdAndUpdate(req.body.id, { $set: req.body }, function (err, data) {
