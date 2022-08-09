@@ -40,7 +40,7 @@ const app = new express;
 app.set('views','./src/views'); 
 app.set('view engine','ejs'); 
 
-// part#1
+// part#1 point 4
 app.use(cors());
 app.use(bodyparser.urlencoded({extended:true}));
 app.use(express.json());
