@@ -4,19 +4,9 @@ const express = require('express');
 //  part#1 point2
  const bodyparser = require('body-parser')
 const cors = require('cors');
-const mongoose = require('mongoose');
+const connectDB = require('./config/db')
 
- mongoose.connect('mongodb+srv://libapp:libapp@cluster0.4kwakrq.mongodb.net/?retryWrites=true&w=majority',
-{
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useUnifiedTopology: true 
-}).then( () => {
-    console.log('Connected to the database ')
-})
-.catch( (err) => {
-    console.error(`Error connecting to the database. n${err}`);
-})
+connectDB()
 
 
 
