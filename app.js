@@ -60,7 +60,10 @@ app.use('/authors',authorsRouter);
 
 app.get('/',function(req,res){
 
-    res.render('index',{});
+    res.render('index',{
+        nav
+
+    });
     
 });
 
