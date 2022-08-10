@@ -63,7 +63,7 @@ authorsRouter.get('/:id',function(req,res){
 
 
 
-
+// part#2 point 8 delete
 //router to delete author
 authorsRouter.post('/delete', function (req, res) {
 
@@ -96,7 +96,7 @@ console.log('hi');
 
 
 
-
+// part#2 point 8 put
 //router to update author
 
 authorsRouter.post('/update', function (req, res) {

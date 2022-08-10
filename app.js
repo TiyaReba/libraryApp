@@ -5,7 +5,7 @@ const express = require('express');
  const bodyparser = require('body-parser')
 const cors = require('cors');
 
-
+// part#2 point1
 // const nav= [
 //     {
 //         link:"/books",
@@ -39,7 +39,7 @@ const app = new express;
 app.set('views','./src/views'); 
 app.set('view engine','ejs'); 
 
-// part#2
+// part#2 point 2
 app.use(cors());
 app.use(bodyparser.urlencoded({extended:true}));
 app.use(express.json());
