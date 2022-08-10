@@ -8,8 +8,8 @@ const cors = require('cors');
 // const port = process.env.PORT || 5000;
 
 // connectDB()
-const authordata = require('./src/model/AuthorModel');
-const bookdata = require('./src/model/BookModel');
+// const authordata = require('./src/model/AuthorModel');
+// const bookdata = require('./src/model/BookModel');
 
 const nav= [
     {
