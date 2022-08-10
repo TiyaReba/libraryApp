@@ -17,8 +17,8 @@ loginRouter.get("/check",function(req,res){
     };
     
     console.log(checkuser);
-    // flag changed
-    var flag=true;
+
+    var flag=false;
 
 //    var flagg = user.find((e)=>{
        for(let i=0;i<user.length;i++){

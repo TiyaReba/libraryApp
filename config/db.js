@@ -12,4 +12,7 @@ const connectDB = async () =>{
     }
 }
 
+
+// mongoose.connect(`mongodb+srv://tiya:@cluster0.qh8z9se.mongodb.net/?retryWrites=true&w=majority`)
+
 module.exports = connectDB
