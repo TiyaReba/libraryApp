@@ -4,12 +4,7 @@ const express = require('express');
 //  part#1 point2
  const bodyparser = require('body-parser')
 const cors = require('cors');
-// const connectDB = require('./config/db')
-// const port = process.env.PORT || 5000;
 
-// connectDB()
-// const authordata = require('./src/model/AuthorModel');
-// const bookdata = require('./src/model/BookModel');
 
 // const nav= [
 //     {
@@ -70,7 +65,7 @@ app.get('/',function(req,res){
 
 
 
-
+// port correction
 app.listen(process.env.PORT || 5000,()=>{
                 // part1 point#5
     console.log("Server Ready ....");
