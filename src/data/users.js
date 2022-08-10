@@ -16,5 +16,5 @@ var users=[{
 }
 ]
 
-// part#2
+// part#1 point 4
 module.exports=users;
